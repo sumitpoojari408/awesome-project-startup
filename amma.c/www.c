@@ -31,14 +31,14 @@ int prim(int c[10][10],int n,int s)
     } 
     return sum; 
 } 
-void main() 
+int main() 
 { 
     int c[10][10],i,j,res,s,n; 
     printf("\nEnter n value:"); 
     scanf("%d",&n); 
     printf("\nEnter the graph data:\n"); 
     for(i=1; i<=n; i++) 
-        for(j=1; j<=n; j++) 
+        for(j=1; j<=n; j++) git
             scanf("%d",&c[i][j]); 
     printf("\nEnter the souce node:"); 
     scanf("%d",&s); 
